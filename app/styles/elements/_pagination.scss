@@ -1,0 +1,24 @@
+.pagination {
+	float: left;
+	
+	span, a {
+		margin-right: 10px;
+		font-size: 18px;
+		}
+
+	a:hover {
+		text-decoration: none;
+		color: #84bcd9;
+		}
+
+	.__active {
+		color: #c6ccd2;
+		}
+	}
+
+.pagination.-right {
+	float: right;
+	span, a {
+		margin-left: 10px;
+		}
+	}

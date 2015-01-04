@@ -1,0 +1,29 @@
+html[dir="rtl"],
+body[dir="rtl"] {
+
+	.section-breadcrumb {
+		.__title {
+			margin-left: 40px;
+			margin-right: 0;
+			}
+		}
+	.section-breadcrumb__back {
+		text-align: left !important;
+		}
+
+	.language-container {
+		padding-left: 0;
+		padding-right: 30px;
+		}
+
+	.navbar-nav > li {
+		@media (min-width: 768px) {
+			float: left;
+			margin-left: 0;
+			margin-right: 10%;
+			}
+		}
+	.item-desc.-cat {
+		text-align: left;
+		}
+	}

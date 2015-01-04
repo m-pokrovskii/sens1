@@ -1,0 +1,24 @@
+@import "vars";
+@import "fonts";
+@import "helpers";
+@import "section-header";
+@import "section-breadcrumb";
+@import "section-catdesc";
+@import "section-grid";
+@import "section-site-desc";
+@import "section-frends";
+@import "section-tags";
+@import "section-related";
+@import "section-footer";
+@import "rtl";
+
+* {
+	margin: auto;
+	padding: 0;
+	}
+
+body {
+	font-family: $default-font;
+	color: $default-color;
+	font-size: $default-font-size;
+}

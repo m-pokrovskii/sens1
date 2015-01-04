@@ -1,0 +1,35 @@
+.item-desc {
+	width: 100%;
+	overflow: hidden;
+	background: rgba(55,55,55,0.6);
+	padding: 13px;
+	
+	&.-cat .__title {
+		font-size: 27px;
+		}
+
+	.__title {
+		margin: 0;
+		color: #fff;
+		font-size: 16px;
+		margin-bottom: 5px;		
+		}
+
+	.__title a {
+		color: #fff;
+		}
+
+	.__time-added {
+		color: #bebebe;	
+		margin-bottom: 5px;
+		font-size: 12px;
+		}
+	}
+
+.item-desc.-cat {
+	text-align: right;
+	}
+
+	.item-desc-cat__desc {
+		color: #FFF;
+		}

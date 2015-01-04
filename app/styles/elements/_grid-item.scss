@@ -1,0 +1,15 @@
+.grid-item {
+	position: relative;
+	min-height: 100px;
+	margin-bottom: 15px;
+	width: 300px;
+
+	.item-desc {
+		position: absolute; bottom: 0;
+		display: none;
+		}
+
+	&:hover .item-desc{
+		display: block;
+		}
+	}

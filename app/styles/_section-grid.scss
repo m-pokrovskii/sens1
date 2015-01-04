@@ -1,0 +1,16 @@
+@import "elements/grid-item";
+@import "elements/item-desc";
+@import "elements/tag";
+@import "elements/pagination";
+
+.section-grid {
+	padding-bottom: 20px;
+	.pagination {
+		margin-top: 10px;
+		}
+	}
+
+.isotope-container {
+	padding: 0 15px;
+	display: none;
+	}

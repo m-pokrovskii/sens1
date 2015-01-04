@@ -1,0 +1,34 @@
+.section-footer {
+	padding-top: 20px;
+	padding-bottom: 17px;
+	background: #383737;
+	color: #FFF;
+	a {
+		color: #FFF;
+		text-decoration: underline;
+		}
+	&__footer-cats {
+		margin-right: 20px;
+		}
+	&__copyright {
+		margin-right: 20px;
+		color: #666;
+		}
+	&__sites a {
+		display: inline-block;
+		margin-right: 5px;
+		}
+	&__socials a {
+		text-decoration: none;
+		}
+
+	&__socials i:before {
+		font-size: 15px;
+		color: #666;
+		}
+	
+	&__socials a:hover i:before {
+		font-size: 15px;
+		color: #fff;
+		}
+	}
