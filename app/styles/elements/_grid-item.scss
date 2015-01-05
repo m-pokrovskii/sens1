@@ -6,7 +6,10 @@
 
 	.item-desc {
 		position: absolute; bottom: 0;
-		display: none;
+		display: block;
+		@media (min-width: 768px) {
+			display: none;
+			}
 		}
 
 	&:hover .item-desc{
