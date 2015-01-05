@@ -11,7 +11,7 @@ var isp = (function($){
 						layoutMode: 'masonry',
 						masonry: {
 							columnWidth: 300,
-							gutter: 15,
+							gutter: 10,
 							}
 					})
 				})
