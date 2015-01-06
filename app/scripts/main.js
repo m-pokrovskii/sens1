@@ -12,6 +12,7 @@ var isp = (function($){
 						masonry: {
 							columnWidth: 300,
 							gutter: 10,
+							isFitWidth:true,
 							}
 					})
 				})

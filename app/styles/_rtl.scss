@@ -16,6 +16,10 @@ body[dir="rtl"] {
 		padding-right: 30px;
 		}
 
+	.pagination {
+		float: left;
+		}
+
 	.navbar-nav > li {
 		@media (min-width: 768px) {
 			float: left;
