@@ -1,5 +1,8 @@
 $default-color: #281A0F;
 $default-link: #738E7B;
+$default-link-hover: transparentize($default-link, 0.5);
+$default-bg: #fff;
+$default-title: $default-color;
 // Nav
 $bg-topbar: #E9D7CD;
 $gl-nav-color: #40454B;
@@ -22,6 +25,8 @@ $breadcrumb-title: #383737;
 $catdesc: $default-color;
 // SectionSite
 $section-site-desc-title: #383737;
+$section-site-desc-border: #65abd0;
+$section-site-desc-text: lighten(#383737, 30%);
 // Grid
 $item-desc-bg: rgba(0,0,0,0.6);
 $grid-item-title-color: #E9D7CD;
@@ -32,6 +37,7 @@ $itemtag: #fff;
 $itemtag-bg: #738E7B;
 $itemtag-bg-hover: #2b4c5c;
 // Pagination
+$default-pagination: $default-color;
 $pagination-hover: #84bcd9;
 $pagination-active: #c6ccd2;
 // TagSection
@@ -44,6 +50,7 @@ $section-related-title: #383737;
 // Footer
 $section-footer-bg: $bg-topbar;
 $section-footer-text: #738E7B;
+$section-footer-text-hover: transparentize($section-footer-text, 0.5);
 $copyright-color: $gl-nav-color;
 $socials-color: $gl-nav-color;
 $socials-color-hover: #738E7B;

@@ -50,6 +50,7 @@ $section-related-title: $default-title;
 // Footer
 $section-footer-bg: darken($bg-topbar, 10%);
 $section-footer-text: $default-link;
+$section-footer-text-hover: transparentize($section-footer-text, 0.5);
 $copyright-color: $gl-nav-color;
 $socials-color: $gl-nav-color;
 $socials-color-hover: transparentize($gl-nav-color, 0.5);
