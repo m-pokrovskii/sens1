@@ -8,8 +8,8 @@
 	
 	.search-field {		
 		border: 0;
-		border-bottom: 1px solid #fff;
-		color: #FFF;
+		border-bottom: 1px solid $search-field-border;
+		color: $search-field-text;
 		background: none;
 		font-size: 16px;
 		padding: 5px 0;
@@ -21,7 +21,7 @@
 		}
 
 		&::-webkit-input-placeholder {
-	   color: #fff;
+	   color: $search-field-placeholder;
 		}
 
 	}
@@ -36,10 +36,10 @@
 	outline: none;
 	i {
 		&:hover {
-			color: #325568;
+			color: $search-submit-hover;
 		}
 		display: block;
-		color: #FFF;
+		color: $search-submit;
 		text-align: left;
 		&:before {
 			position: relative; top: -4px;

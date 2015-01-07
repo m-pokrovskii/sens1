@@ -4,15 +4,16 @@
 	span, a {
 		margin-right: 10px;
 		font-size: 18px;
+		color: $default-pagination;
 		}
 
 	a:hover {
 		text-decoration: none;
-		color: #84bcd9;
+		color: $pagination-hover;
 		}
 
 	.__active {
-		color: #c6ccd2;
+		color: $pagination-active;
 		}
 	}
 

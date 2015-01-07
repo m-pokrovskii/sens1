@@ -1,12 +1,12 @@
 .tag {
 	display: inline-block;
 	margin-bottom: 2px;
-	background: #6d98af;
-	color: #fff;
+	background: $itemtag-bg;
+	color: $itemtag;
 	padding: 3px 5px;
 	&:hover {
-		color: #fff;
-		background: #2b4c5c;
+		color: $itemtag;
+		background: $itemtag-bg-hover;
 		text-decoration: none;
 		}
 	}

@@ -1,18 +1,21 @@
 .section-footer {
 	padding-top: 20px;
 	padding-bottom: 17px;
-	background: #383737;
-	color: #FFF;
+	background: $section-footer-bg;
+	color: $section-footer-text;
 	a {
-		color: #FFF;
+		color: $section-footer-text;
 		text-decoration: underline;
+		&:hover {
+			color: $section-footer-text-hover;
+			}
 		}
 	&__footer-cats {
 		margin-right: 20px;
 		}
 	&__copyright {
 		margin-right: 20px;
-		color: #666;
+		color: $copyright-color;
 		}
 	&__sites a {
 		display: inline-block;
@@ -24,11 +27,11 @@
 
 	&__socials i:before {
 		font-size: 15px;
-		color: #666;
+		color: $socials-color;
 		}
 	
 	&__socials a:hover i:before {
 		font-size: 15px;
-		color: #fff;
+		color: $socials-color-hover;
 		}
 	}

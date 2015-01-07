@@ -1,0 +1,57 @@
+$default-color: #351D28;
+$default-link: #351D28;
+$default-link-hover: transparentize($default-link, 0.5);
+$default-bg: #FAE5C2;
+$default-title: #351D28;
+// Nav
+$bg-topbar: #583737;
+$gl-nav-color: #FAE5C2;
+$bg-navbar-toggle: $gl-nav-color;
+$logo-color: $gl-nav-color;
+$navbar-menu-color: $gl-nav-color;
+$navbar-menu-color-hover: transparentize($navbar-menu-color, 0.5);
+// Nav__Search
+$search-field-text: $gl-nav-color;
+$search-field-border: $gl-nav-color;
+$search-field-placeholder: $gl-nav-color;
+$search-submit: $gl-nav-color;
+$search-submit-hover: $navbar-menu-color-hover;
+// Language
+$language-container-bullet: $bg-topbar;
+$language-container-bg: #774A4A;
+$language-container-links: $gl-nav-color;
+//Nav__Breadcrumb
+$breadcrumb-title: $default-title;
+// CatDesc
+$catdesc: $default-title;
+// SectionSite
+$section-site-desc-title: $default-title;
+$section-site-desc-border: #EABE90;
+$section-site-desc-text: lighten($default-color, 30%);
+// Grid
+$item-desc-bg: rgba(0,0,0,0.6);
+$grid-item-title-color: #BFA986;
+$time: transparentize($grid-item-title-color, 0.5);
+$item-desc-cat__desc :#fff;
+// ItemTag
+$itemtag: #333;
+$itemtag-bg: #EABE90;
+$itemtag-bg-hover: #DAA98B;
+// Pagination
+$default-pagination: $default-color;
+$pagination-hover: $default-link-hover;
+$pagination-active: #E88E84;
+// TagSection
+$section-tags-bg: #EABE90;
+$tag-title: #fff;
+$tag-bg: #583737;
+$section-tags-title: #383737;
+// Related
+$section-related-title: $default-title;
+// Footer
+$section-footer-bg: darken($bg-topbar, 10%);
+$section-footer-text: $gl-nav-color;
+$section-footer-text-hover: transparentize($section-footer-text, 0.5);
+$copyright-color: $gl-nav-color;
+$socials-color: $gl-nav-color;
+$socials-color-hover: transparentize($gl-nav-color, 0.5);

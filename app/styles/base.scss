@@ -21,4 +21,13 @@ body {
 	font-family: $default-font;
 	color: $default-color;
 	font-size: $default-font-size;
-}
+	background: $default-bg;
+	}
+
+a {
+	color: $default-link;
+	&:hover {
+		color: $default-link-hover;
+		}
+	}
+

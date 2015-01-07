@@ -15,18 +15,18 @@
 		display: none;
 		position: absolute; z-index: 3; left: 50%; bottom: -5px; margin-left: -9px;
 		width: 18px; height: 18px;
-		background: #65abd0;
+		background: $language-container-bullet;
     transform: rotate(45deg);
 		}
 
 	.language-container {
 		display: none;
-		position: absolute; left: 0; z-index: 2; background: #5093b7;
+		position: absolute; left: 0; z-index: 2; background: $language-container-bg;
 		width: 100%;
 		padding: 30px 0 30px 30px;
 		font-size: 14px;
 		a {
-			color: #fff;
+			color: $language-container-links;
 			}
 		}
 
