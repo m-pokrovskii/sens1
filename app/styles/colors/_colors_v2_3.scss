@@ -1,0 +1,57 @@
+$default-color: #775F3B;
+$default-link: #775F3B;
+$default-link-hover: transparentize($default-link, 0.5);
+$default-bg: #F4EAD5;
+$default-title: #775F3B;
+// Nav
+$bg-topbar: #E94E77;
+$gl-nav-color: #fff;
+$bg-navbar-toggle: $gl-nav-color;
+$logo-color: $gl-nav-color;
+$navbar-menu-color: $gl-nav-color;
+$navbar-menu-color-hover: transparentize($navbar-menu-color, 0.5);
+// Nav__Search
+$search-field-text: $gl-nav-color;
+$search-field-border: $gl-nav-color;
+$search-field-placeholder: $gl-nav-color;
+$search-submit: $gl-nav-color;
+$search-submit-hover: $navbar-menu-color-hover;
+// Language
+$language-container-bullet: $bg-topbar;
+$language-container-bg: #D68189;
+$language-container-links: $gl-nav-color;
+//Nav__Breadcrumb
+$breadcrumb-title: $default-title;
+// CatDesc
+$catdesc: transparentize($default-color, 0.7);
+// SectionSite
+$section-site-desc-title: transparentize($default-title, 0.5);
+$section-site-desc-border: transparentize($default-color, 0.7);
+$section-site-desc-text: transparentize($default-color, 0.7);
+// Grid
+$item-desc-bg: rgba(255,255,255,0.4);
+$grid-item-title-color: #2C1C04;
+$time: transparentize($grid-item-title-color, 0.5);
+$item-desc-cat__desc :#2C1C04;
+// ItemTag
+$itemtag: #CAAB7D;
+$itemtag-bg: #090600;
+$itemtag-bg-hover: lighten(#090600, 20%);
+// Pagination
+$default-pagination: $default-color;
+$pagination-hover: $default-link-hover;
+$pagination-active: transparentize($default-color, 0.3);
+// TagSection
+$section-tags-bg: #CAAB7D;
+$tag-title: #775F3B;
+$tag-bg: #775F3B;
+$section-tags-title: #775F3B;
+// Related
+$section-related-title: $default-title;
+// Footer
+$section-footer-bg: #E94E77;
+$section-footer-text: $gl-nav-color;
+$section-footer-text-hover: transparentize($section-footer-text, 0.5);
+$copyright-color: $gl-nav-color;
+$socials-color: $gl-nav-color;
+$socials-color-hover: transparentize($gl-nav-color, 0.5);

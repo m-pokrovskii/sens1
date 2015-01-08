@@ -11,3 +11,10 @@
 		margin-left: 5px;
 		}
 	}
+
+.section-tags.-v2 dt {
+	background: none;
+	border-bottom: solid 2px $tag-bg;
+  border-radius: 0;
+  font-size: 20px;
+	}
