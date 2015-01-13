@@ -2,6 +2,10 @@
 	margin-bottom: 30px;
 	.__item {
 		margin-bottom: 30px;
+		&:hover .__grid-title a {
+			text-decoration: underline;
+			color: $default-link-hover;
+			}
 		}
 	.__image {
 		display: block;
