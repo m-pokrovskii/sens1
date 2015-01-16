@@ -27,8 +27,8 @@ gulp.task('html', ['styles'], function () {
 
   return gulp.src('app/*.html')
     .pipe(assets)
-    .pipe($.if('*.js', $.uglify()))
-    .pipe($.if('*.css', $.csso()))
+    // .pipe($.if('*.js', $.uglify()))
+    // .pipe($.if('*.css', $.csso()))
     .pipe(assets.restore())
     .pipe($.useref())
     // .pipe($.if('*.html', $.minifyHtml({conditionals: true, loose: true})))
@@ -115,7 +115,7 @@ gulp.task('watch', ['connect'], function () {
 });
 
 gulp.task('build', ['html', 'images', 'fonts', 'extras'], function () {
-  return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
+  return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: false}));
 });
 
 gulp.task('default', ['clean'], function () {
